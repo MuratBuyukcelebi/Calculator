@@ -1,5 +1,0 @@
-const numberButton = document.querySelectorAll("[data-number]")
-const operationButton = document.querySelectorAll("[data-operation]")
-const deleteButton = document.querySelector("[data-delete]")
-const equalsTextElement = document.querySelector("[data-equals]")
-const reverseTextElement = document.querySelector("[data-reverse]")
