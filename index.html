@@ -12,26 +12,26 @@
  <div class="calc">
    <div class="calc__input">
      <div class="calc__input-previous"></div>
-     <div class="calc__input-current">0</div>
+     <div id="inputCurrent" class="calc__input-current">0</div>
    </div>
    <div class="calc__key">
-     <div class="calc__key-item calc__key-item--type">AC</div>
+     <div class="calc__key-item calc__key-item--type" onclick="clear()">AC</div>
      <div class="calc__key-item calc__key-item--type">+/-</div>
      <div class="calc__key-item calc__key-item--type">%</div>
      <div class="calc__key-item calc__key-item--operation">÷</div>
-     <div class="calc__key-item">7</div>
-     <div class="calc__key-item">8</div>
-     <div class="calc__key-item">9</div>
+     <div class="calc__key-item" onclick="calculate(7)">7</div>
+     <div class="calc__key-item" onclick="calculate(8)">8</div>
+     <div class="calc__key-item" onclick="calculate(9)">9</div>
      <div class="calc__key-item calc__key-item--operation">×</div>
-     <div class="calc__key-item">4</div>
-     <div class="calc__key-item">5</div>
-     <div class="calc__key-item">6</div>
+     <div class="calc__key-item" onclick="calculate(4)">4</div>
+     <div class="calc__key-item" onclick="calculate(5)">5</div>
+     <div class="calc__key-item" onclick="calculate(6)">6</div>
      <div class="calc__key-item calc__key-item--operation" >−</div>
-     <div class="calc__key-item">1</div>
-     <div class="calc__key-item">2</div>
-     <div class="calc__key-item">3</div>
+     <div class="calc__key-item" onclick="calculate(1)">1</div>
+     <div class="calc__key-item" onclick="calculate(2)">2</div>
+     <div class="calc__key-item" onclick="calculate(3)">3</div>
      <div class="calc__key-item calc__key-item--operation">+</div>
-     <div class="calc__key-item calc__key-item--zero">0</div>
+     <div class="calc__key-item calc__key-item--zero" onclick="calculate(0)">0</div>
      <div class="calc__key-item">,</div>
      <div class="calc__key-item calc__key-item--operation">=</div>
    </div>
