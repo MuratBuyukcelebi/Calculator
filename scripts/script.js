@@ -6,7 +6,7 @@ let calculate=(number)=>{
   if (result.innerHTML == 0) {
     result.innerHTML = ""
   }
-  if (result.innerText.length >= 7) {
+  if (result.innerText.length >= 8) {
     return;
   }
   result.innerText +=number;
@@ -17,5 +17,5 @@ function clearInput() {
 }
 
 function processEnd() {
-  result.innerText = eval(result.innerHTML).toFixed(1)
+  result.innerText = eval(result.innerHTML)
 }
