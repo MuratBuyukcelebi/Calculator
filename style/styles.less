@@ -1,5 +1,6 @@
 body {
-  padding: 294px;
+  padding-top: 294px;
+  padding-bottom: 294px;
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,8 +9,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
-
+@media (max-width: 1200px) {
+  body {
+    background-size: auto;
+    background-position: center;
+  }
+}
 .calc {
   padding-top: 16px;
   backdrop-filter: blur(96px);
