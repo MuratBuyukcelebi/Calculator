@@ -11,17 +11,16 @@ let calculate=(number)=>{
   result.innerText +=number;
 }
 
+// incomplete code
 let oper=(number)=>{
-  if (result.innerHTML >= 1) {
-    for(let i = 3; i < operation.length; i++) {
-      result.innerHTML += number;
-    }
+  for(let i = 3; i < operation.length; i++) {
+    result.innerHTML += number;
   }
 }
 
 function reverseNum() {
   // incomplete code
- // result.innerHTML = result.innerHTML * -1
+  //result.innerHTML = result.innerHTML * -1
 }
 function clearInput() {
   result.innerHTML = 0;
