@@ -12,6 +12,10 @@ let calculate=(number)=>{
   result.innerText +=number;
 }
 
+function reverseNum() {
+  // incomplete code
+  result.innerHTML = result.innerHTML * -1
+}
 function clearInput() {
   result.innerHTML = 0;
 }
